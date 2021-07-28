@@ -158,8 +158,8 @@ function changeSign(){
 function makeDecimal(){
     if(number.indexOf('.') === -1){
         number = number + '.';
+        displayValue.innerHTML = number;
     }
-    displayValue.innerHTML = number;
 }
 
 
