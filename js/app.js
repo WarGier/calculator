@@ -174,9 +174,9 @@ clear.addEventListener('click', clearScreen);
 
 // event handler to all operands
 add.addEventListener('click', manageNumbers);
-sub.addEventListener('click', manageNumbers)
+sub.addEventListener('click', manageNumbers);
 multiply.addEventListener('click', manageNumbers);
 divide.addEventListener('click', manageNumbers);
-sign.addEventListener('click', changeSign)
-decimal.addEventListener('click', makeDecimal)
+sign.addEventListener('click', changeSign);
+decimal.addEventListener('click', makeDecimal);
 equals.addEventListener('click', getResult);
